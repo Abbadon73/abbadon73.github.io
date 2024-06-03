@@ -1,0 +1,271 @@
+* {
+    margin: 0 auto;
+}
+
+html {
+    /* overflow: hidden; */
+}
+
+@font-face {
+    font-family: "IndictionUnicodeTT";
+    /* Имя шрифта */
+    src: url(../fonts/IndictionUnicodeTT.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "AmaticSC-Bold";
+    src: url(../fonts/AmaticSC-Bold.ttf);
+}
+
+/*INDEX.HTML*/
+.container_background {
+    height: 100vh;
+    background-image: url(../background-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-family: "IndictionUnicodeTT";
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link {
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.link a {
+    font-family: "AmaticSC-Bold";
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    display: block;
+}
+
+.link a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/*MENU.HTML*/
+.container_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    position: absolute;
+    top: 26%;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-family: "AmaticSC-Bold";
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* Страницы костюмов */
+
+.logo-1 {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    font-family: "IndictionUnicodeTT";
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-test {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: "AmaticSC-Bold";
+}
+
+.container-1,
+.container-3 {
+    height: 185px;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.container-2-1 {
+    width: 400px;
+    height: 700px;
+    border: 1px solid black;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#clear {
+    position: absolute;
+    top: 91%;
+    right: 5%;
+
+    font-weight: 700;
+    font-size: 30px;
+    padding: 16px 50px;
+    border: 1px solid black;
+    font-family: "AmaticSC-Bold";
+    text-transform: uppercase;
+    margin: -9px 0px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+#clear:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    cursor: pointer;
+}
+
+#clear:active {
+    background: white;
+}
+
+.info_link {
+    display: block;
+    width: 180px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 5px 1px 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.info_link:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.info_link:active {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+.more__block-text {
+}
+
+.more__block-text-head {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.more__block-text-info p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 130%;
+}
+
+.more__block-text-info a {
+    text-decoration: none;
+}
+
+.more__block-text-info a:hover {
+    color: red;
+}
+
+.more__block-img {
+    display: flex;
+    float: left;
+}
+
+.more__block-img a {
+    text-decoration: none;
+    color: black;
+}
+
+.more__img {
+    height: 300px;
+    margin: 1%;
+}
+
+/* fancybox */
+.museum-item_info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#gallery_info {
+    display: none;
+    width: 80%;
+}
+
+#gallery_info > .more {
+    overflow: auto;
+}
+
+.more_block-text {
+    margin: 0;
+}
+
+.more_block-text-head {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.more_block-text-info {
+    text-align: justify;
+}
+
+.more_block-img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.your-class {
+    overflow: hidden;
+}
+
+.your-class_link {
+    display: flex;
+}
+
+.more_img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
